@@ -510,7 +510,7 @@ button:focus {
 #roof {
   color: #fff;
   font-size: 14px;
-  background: #3F3F3F;
+  background: #272727;
   padding: 10px 0px;
 }
 #roof .name {
@@ -967,7 +967,7 @@ button:focus {
    ========================================================================== */
 .activity-area {
 /*  background: url(../img/background/bg.jpg) #eeeeee;*/
-  background: #F5F5F5;
+  background: #e1e1e3;
   background-size: cover;
   padding: 0;
 }
@@ -1191,7 +1191,6 @@ button:focus {
 }
 .coaching-courses .coaching-wrapper h3 {
   font-size: 34px;
-  color: #fff;
   line-height: 48px;
   text-transform: uppercase;
 }
@@ -1253,7 +1252,7 @@ button:focus {
    ========================================================================== */
 .why-choose {
   padding-top: 30px;
-  background: #F5F5F5;
+  background: #272727;
 }
 .why-wrap {
   display: inline-block;
@@ -1780,9 +1779,13 @@ footer i.fa:hover {
    ========================================================================== */
 .why-choose-us {
   background: #F7F7F7;
+  color: #fff;
+}
+.why-choose p {
+  color: #fff;
 }
 .about h2 {
-  color: #212121;
+  color: #fff;
   margin-top: 60px;
   margin-bottom: 20px;
 }
@@ -3038,6 +3041,7 @@ fieldset[disabled] .btn {
 }
 .why-we .why-text h4{
   font-size: 20px;
+  color: #fff;
 }
 .service-name {
   margin-top: 60px;
