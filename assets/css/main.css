@@ -41,7 +41,7 @@ h6 {
 p {
   font-size: 15px;
   font-weight: 400;
-  line-height: 21px;
+  line-height: 23px;
 }
 a {
   color: #436eee;
@@ -57,6 +57,9 @@ a:hover {
 a:focus {
   outline: none;
   text-decoration: none;
+}
+a.active {
+  color: #9f2841;
 }
 .section-title {
   font-size: 35px;
@@ -122,6 +125,9 @@ button:focus {
 }
 .section {
   padding: 80px 0;
+}
+.section-page {
+  padding: 0 0;
 }
 .input-group-btn button {
   padding: 11px 20px;
@@ -205,7 +211,7 @@ button:focus {
   text-transform: uppercase;
 }
 .btn-rm {
-  padding: 10px 25px;
+  padding: 13px 25px;
   text-transform: uppercase;
 }
 .btn-effect {
@@ -297,10 +303,13 @@ button:focus {
   text-align: center;
 }
 .page-header {
-  padding: 60px 0;
+  padding: 110px 0;
   margin: 0;
   border-top: 1px solid #eee;
   position: relative;
+}
+.banner-position {
+    background-position: 20% 53% !important;
 }
 .page-header:before {
   content: '';
@@ -317,6 +326,7 @@ button:focus {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 1.2px;
 }
 .breadcrumb-wrapper {
   text-align: center;
@@ -328,7 +338,7 @@ button:focus {
   color: #fff;
 }
 .breadcrumb-wrapper .current {
-  color: #436eee;
+  color: #9f2841;
 }
 .loader {
   position: fixed;
@@ -542,7 +552,7 @@ button:focus {
 .header-search {
   display: inline-block;
   margin-left: 20px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .open-search {
   background: #9f2841;
@@ -614,14 +624,14 @@ button:focus {
   padding: 0;
 }
 .main-navigation .navbar-brand {
-  width: 145px;
+  width: 180px;
   height: auto;
   padding: 6px 0 0 15px;
 }
 .main-navigation .navbar-nav > li > a,
 .main-navigation .navbar-nav > li > a:focus {
   font-size: 14px;
-  padding: 25px 20px;
+  padding: 35px 20px;
   margin: 0px;
   outline: 0;
   color: #656565;
@@ -704,11 +714,11 @@ button:focus {
   animation-name: fadeInDown;
 }
 .affix .navbar-brand {
-  width: 142px;
+  width: 180px;
 }
 .affix .navbar-nav > li > a,
 .affix .navbar-nav > li > a:focus {
-  padding: 18px 20px;
+  padding: 29px 20px;
 }
 .affix .header-search {
   margin-top: 8px;
@@ -1584,6 +1594,9 @@ button:focus {
   height: 42px;
   margin-right: 20px;
 }
+.latest-news-other {
+  margin-bottom: 50px;
+}
 /* ==========================================================================
    Footer 
    ========================================================================== */
@@ -2351,9 +2364,7 @@ footer i.fa:hover {
 /* ==========================================================================
    Blog
    ========================================================================== */
-#content {
-  padding: 60px 0;
-}
+
 .social-link a {
   display: inline-block;
   margin-right: 5px;
@@ -2918,6 +2929,10 @@ blockquote p {
 /* ==========================================================================
    Contact
    ========================================================================== */
+#content-contact {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
 .form-control {
   height: 48px;
 }
