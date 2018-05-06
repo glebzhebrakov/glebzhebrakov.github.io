@@ -307,9 +307,14 @@ button:focus {
   margin: 0;
   border-top: 1px solid #eee;
   position: relative;
+  background-repeat: no-repeat;
 }
 .banner-position {
     background-position: 20% 53% !important;
+    background-repeat: no-repeat !important;
+}
+.banner-programms {
+  background-size: contain !important;
 }
 .page-header:before {
   content: '';
@@ -999,6 +1004,15 @@ button:focus {
   padding: 0 0 10px 0;
   letter-spacing: 1px;
 }
+.activity-programms {
+  padding-top: 50px;
+}
+.activity-programms .activity-item {
+  padding: 35px 15px 30px;
+}
+.activity-programms .row:last-child {
+  margin-bottom: 0;
+}
 .activity-item .icon {
   margin: -48px 0 20px;
 }
@@ -1040,6 +1054,10 @@ button:focus {
   text-transform: uppercase;
   padding: 12px 0;
   letter-spacing: 1px;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+    background: #fff;
 }
 /* ==========================================================================
    Features Start
@@ -1837,7 +1855,7 @@ footer i.fa:hover {
   text-decoration: none;
 }
 .panel-default .panel-heading a:hover {
-  color: #436eee;
+  color: #842136;
 }
 .panel-default .panel-heading a:after {
   font-family: "FontAwesome";
