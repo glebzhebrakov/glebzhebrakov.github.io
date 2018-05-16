@@ -9,7 +9,7 @@ body {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #999999;
+  color: #3f3f3f;
   margin: 0;
   line-height: 25px;
   background: #fff;
@@ -44,7 +44,7 @@ p {
   line-height: 23px;
 }
 a {
-  color: #436eee;
+  color: #822135;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -77,7 +77,7 @@ a.active {
   padding-bottom: 20px;
   font-weight: 700;
   letter-spacing: 1px;
-  font-size: 24px;
+  font-size: 18px;
   display: inline-block;
 }
 .medium-title a {
@@ -124,7 +124,7 @@ button:focus {
   color: #fff;
 }
 .section {
-  padding: 80px 0;
+  padding: 30px 0;
 }
 .section-page {
   padding: 0 0;
@@ -522,30 +522,22 @@ button:focus {
 /* ==========================================================================
    Roof Section Start
    ========================================================================== */
-#roof {
-  color: #fff;
-  font-size: 14px;
-  background: #272727;
-  padding: 10px 0px;
+.quick-contacts {
+  margin-top: 14px;
 }
-#roof .name {
-  font-size: 16px;
-  font-weight: 500;
-}
-#roof .quick-contacts span {
+
+.quick-contacts span {
   padding-left: 15px;
+  display: block;
+  color: #656565;
 }
-#roof .quick-contacts span a {
-  color: #fff;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+.quick-contacts span a{
+  color: #656565;
 }
-#roof .quick-contacts span a:hover {
+.quick-contacts span a:hover {
   opacity: 0.8;
 }
-#roof .quick-contacts span i {
+.quick-contacts span i {
   margin-right: 5px;
 }
 /* ==========================================================================
@@ -635,8 +627,8 @@ button:focus {
 }
 .main-navigation .navbar-nav > li > a,
 .main-navigation .navbar-nav > li > a:focus {
-  font-size: 14px;
-  padding: 35px 20px;
+  font-size: 13px;
+  padding: 30px 20px;
   margin: 0px;
   outline: 0;
   color: #656565;
@@ -683,7 +675,7 @@ button:focus {
   padding: 0;
   border-radius: 3px;
   left: 0;
-  min-width: 200px;
+  min-width: 250px;
   background: #ffffff;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
@@ -717,13 +709,14 @@ button:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
+  background: #822135;
 }
 .affix .navbar-brand {
   width: 180px;
 }
 .affix .navbar-nav > li > a,
 .affix .navbar-nav > li > a:focus {
-  padding: 29px 20px;
+  padding: 20px 20px;
 }
 .affix .header-search {
   margin-top: 8px;
@@ -817,6 +810,41 @@ button:focus {
     display: none;
   }
 }
+.main-menu {
+  background: #822135;
+}
+.main-menu ul li a{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 20px 20px;
+  margin: 0px;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+}
+.main-menu ul li .dropdown-menu li a{
+    color: #797979;
+    text-transform: none;
+    font-size: 14px;
+    padding: 8px 20px;
+    margin: 0px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+}
+.main-menu ul li .dropdown-menu li a:hover{
+    background: #fff;
+    color: #822135;
+}
+.main-menu  .nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #822135;
+}
+.main-menu ul li a.active {
+    background: #fff;
+    color: #822135;
+}
+
 /* ==========================================================================
    Carousel Main Slider
    ========================================================================== */
@@ -1058,6 +1086,13 @@ button:focus {
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
     border-top-color: #ddd;
     background: #fff;
+}
+.activity-about-page .activity-item {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.activity-about-page {
+  padding-top: 20px;
 }
 /* ==========================================================================
    Features Start
@@ -1590,6 +1625,16 @@ button:focus {
 .news-grid-item:hover {
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
+.programm-info-preview a{
+  margin: 7px 0;
+  color: #822135 !important;
+  font-size: 16px;
+}
+.programm-info-preview a:hover{
+  margin: 7px 0;
+  color: #000 !important;
+  font-size: 16px;
+}
 /* ==========================================================================
    NewsLetter Section Style
    ========================================================================== */
@@ -1760,6 +1805,12 @@ footer i.fa {
 footer i.fa:hover {
   color: #b33c55;
 }
+
+
+#content {
+  margin-top: 40px;
+}
+
 /* ==========================================================================
    Back to Top
    ========================================================================== */
@@ -2559,7 +2610,7 @@ footer i.fa:hover {
 }
 #sidebar .cat-list li {
   border-bottom: 1px solid #EFEFEF;
-  padding: 12px 0;
+  padding: 6px 0;
 }
 #sidebar .cat-list li i {
   margin-right: 10px;
@@ -2568,7 +2619,7 @@ footer i.fa:hover {
 #sidebar .cat-list li a {
   text-decoration: none;
   margin-right: 10px;
-  color: #999;
+  color: #797979;
   display: inline-block;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -2624,8 +2675,8 @@ footer i.fa:hover {
   display: inline-block;
   color: #fff;
   font-size: 14px;
-  padding: 8px 18px;
-  background: #436eee;
+  padding: 6px 16px;
+  background: grey;
   margin: 4px 2px;
   transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -2935,6 +2986,11 @@ blockquote p {
 .pagination .pagination > li:first-child > span {
   border-radius: 0px;
 }
+.pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    background: #2d2d2d !important; 
+    border-color: #436eee;
+    color: #fff;
+}
 .pagination > li:last-child > a,
 .pagination .pagination > li:last-child > span {
   border-radius: 0px;
@@ -3091,16 +3147,100 @@ fieldset[disabled] .btn {
   line-height: 25px;
   display: inline;
 }
-.thumb {
+.schools  .courses-wrap .course-detail-wrap .course-content h3 {
+    letter-spacing: 1px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.schools .courses-wrap .course-detail-wrap .course-content h3 a {
+    color: #212121;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.schools .courses-wrap .course-detail-wrap .course-content p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.schools .courses-wrap {
+  padding: 30px 10px 30px;
+  background: #F9F9F9;
+}
 
+.thumb {
+margin-bottom: 15px;
   height: 190px;
   background-size: cover;
   background-repeat: no-repeat; 
 }
+.pagination .active > a, .pagination .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #2d2d2d !important;
+}
+.show-all-programms {
+  background: none;
+  font-size: 14px;
+  text-transform: none;
+  color: #212121;
+  border: none;
+  text-decoration: underline;
+  padding: 12px 0 0 8px;
+}
+.show-all-programms span{
+  color: #212121;
+}
+.show-all-programms:hover {
+  background: none;
+  font-size: 14px;
+  text-transform: none;
+  color: #822135;
+  border: none;
+  text-decoration: none;
+}
+.show-all-programms:focus{
+  background: none;
+  font-size: 14px;
+  text-transform: none;
+  color: #822135;
+  border: none;
+  text-decoration: none;
+}
+.show-all-programms:active{
+  background: none;
+  font-size: 14px;
+  text-transform: none;
+  color: #822135;
+  border: none;
+  text-decoration: none;
+}
+.programms-preview {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.view-type a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #212121;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.view-type a i{
+  font-size: 17px;
+  margin-right: 5px;
+}
+.view-type a:hover {
+  color: #666;
+}
 
-
-
-
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+  display: none;
+}
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+  display: none;
+}
 
 
 
