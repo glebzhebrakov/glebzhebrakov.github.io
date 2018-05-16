@@ -2627,7 +2627,7 @@ footer i.fa:hover {
   -o-transition: all 0.2s ease-in-out;
 }
 #sidebar .cat-list li a:hover {
-  color: #436eee;
+  color: #000;
 }
 #sidebar .cat-list li .num-posts {
   color: #aaa;
