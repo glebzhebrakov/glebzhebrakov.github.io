@@ -2331,7 +2331,7 @@ footer i.fa:hover {
 }
 .course-information {
   background: #F7F7F7;
-  padding: 30px 35px;
+  padding: 20px 25px;
   margin-bottom: 40px;
 }
 .course-information h4 {
@@ -3241,6 +3241,79 @@ margin-bottom: 15px;
 [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
   display: none;
 }
+.school-page h5 {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 20px; 
+}
+.school-page h5:first-child {
+  margin-top: 0; 
+}
+.school-page .widget-title{
+  font-size: 15px;
+}
+.school-map {
+  margin-bottom: 10px;
+}
+.school-page #sidebar .widget .cat-list li {
+    border-bottom: none;
+    padding: 6px 0;
+}
+.school-page #sidebar .widget .cat-list li a{
+    color: #822135; 
+}
+.school-page #sidebar .widget .cat-list li a:hover{
+    color: #000;
+}
+.school-page .item-list .programms-preview thead tr th{
+  border-bottom: none;
+}
+
+.school-page .item-list .programms-preview .show-all-programms {
+    padding: 0;
+    text-decoration: none;
+}
+.school-page .item-list .programms-preview .show-all-programms span {
+    color: #822135;
+    padding: 0;
+    text-decoration: none;
+}
+.programm-description {
+  padding: 7px;
+}
+
+.carousel-control .glyphicon, .carousel-control .glyphicon, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+}
+.carousel-control .glyphicon, .carousel-control .icon-prev {
+    left: 50%;
+    margin-left: -10px;
+}
+.glyphicon i {
+  font-size: 30px;
+}
+.carousel-control {
+    opacity: 1;
+}
+.school-gallery {
+  margin-bottom: 10px;
+}
+.coaching-wrapper p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #212121 !important;
+}
+.school-page .carousel .carousel-inner .item    { 
+    height: 400px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
 
 
 
